@@ -4,9 +4,9 @@ A deployed machine-learning web app that estimates the probability a UK food bus
 would receive a **poor hygiene rating (FHRS 0–2)** — from characteristics known *before*
 any inspection: business type, region, and urban/rural setting.
 
-> **Live demo:** _add your Hugging Face Spaces URL here after deploying_ ·
+> **Live demo:** coming soon ·
 > **Sibling project:** the statistical analysis behind this model lives in
-> [`fsa-hygiene`](../fsa-hygiene) (the "why"; this repo is the "predict & ship").
+> [`fsa-hygiene`](https://github.com/abasukanga4/fsa-hygiene) (the "why"; this repo is the "predict & ship").
 
 ![SHAP drivers of predicted risk](figures/shap_summary.png)
 

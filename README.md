@@ -28,7 +28,7 @@ model, not just write a notebook" piece.
 | **Features** | Business type · region · urban/rural — *only what's knowable up front* |
 | **ROC-AUC** | **0.737** (test) — useful screening signal from structure alone |
 | **PR-AUC** | 0.104 (vs 0.045 base rate — ~2.3× better than random) |
-| **Brier** | 0.042 — **well calibrated** (see below) |
+| **Calibration** | predicted ≈ observed across risk bands — a 10% prediction really fails ~10% of the time (Brier 0.042) |
 | **Explainability** | SHAP values, global and per-prediction |
 
 **Two decisions that matter** (and that I'd talk through in an interview):

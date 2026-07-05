@@ -10,6 +10,8 @@ Run locally:
     streamlit run app.py
 """
 
+from __future__ import annotations
+
 from pathlib import Path
 
 import joblib

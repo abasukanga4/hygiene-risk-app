@@ -6,8 +6,8 @@ Design notes (defensible in an interview):
   * Target is rare (~4.5% need improvement), so we judge the model on
     ROC-AUC and average precision (PR-AUC) -- NOT accuracy, which a
     predict-everything-passes model would ace.
-  * RandomForest with class_weight='balanced' so the rare positives aren't
-    drowned out.
+  * Deliberately NO class balancing: class_weight/resampling would inflate
+    predicted probabilities, and calibrated probabilities are the product here.
   * Honest framing: contextual features (type, region, recency) only shift risk
     moderately, so the model is a *screening aid*, not an oracle. We report the
     real numbers and let them speak.
